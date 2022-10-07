@@ -15,9 +15,7 @@
     padding: 5px;
     font-size: 20px;
   }
-  header nav #contact-info-nav .nav-item:hover {
-    color: #000
-  }
+  
   #page-links-nav #navbar-links .navbar-links-item a{
     color: #000;
     text-decoration: none;
@@ -29,9 +27,7 @@
     font-size: 25px;
     color: #91b40d;
   }
-  #page-links-nav #navbar-links #nav-offcanvas #menu-toggle-btn:hover{
-    color: #000;
-  }
+  
   #page-links-nav #navbar-links #open-search-box{
     font-size: 25px; 
     color: #91b40d; 
@@ -151,7 +147,12 @@ footer .container #main-panel #footer-links .links-wrap ul a:hover{
 }
 
 
-#navbar-links div:nth-child(5){
+#navbar-links .navbar-links-item:nth-child(5){
   background-color: #91b40d;
   border-radius: 5px;
 }
+.offcanvas-body div:nth-child(5){
+  background-color: #91b40d;
+  border-radius: 5px;
+}
+

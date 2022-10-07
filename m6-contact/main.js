@@ -1,12 +1,37 @@
 let body = document.querySelector("body");
 let mainNavbar = document.getElementById("main-navbar");
 let pageUpScrollBtn = document.getElementById("page-up-scroll-btn");
+let changeLogoColor = document.getElementById("change-logo-color");
+let changeLinkSColor = document.querySelectorAll("#navbar-links .navbar-links-item a");
+let contactInfoNav = document.getElementById("contact-info-nav");
 
 body.onscroll = function(){
-    if(scrollY > mainNavbar.offsetHeight){
-        mainNavbar.classList.add("text-bg-dark");
+    if(scrollY > 150){
+        mainNavbar.classList.add("fixed-top");
+        mainNavbar.classList.remove("bg-white");
+        mainNavbar.classList.add("bg-dark");
+        phoneSpan.classList.remove("text-dark");
+        phoneSpan.classList.add("text-white");
+        contactInfoNav.classList.remove("border-dark");
+        contactInfoNav.classList.add("border-white");
+        changeLogoColor.removeAttribute("src");
+        changeLogoColor.setAttribute("src","img/header/white-logo.png");
+        for(let i = 0; i < changeLinkSColor.length; i++){
+            changeLinkSColor[i].style.color = "#fff";
+        }
     }else{
-        mainNavbar.classList.remove("text-bg-dark")
+        mainNavbar.classList.remove("fixed-top");
+        mainNavbar.classList.remove("text-bg-dark");
+        mainNavbar.classList.add("bg-white");
+        phoneSpan.classList.remove("text-white");
+        phoneSpan.classList.add("text-dark");
+        contactInfoNav.classList.remove("border-white");
+        contactInfoNav.classList.add("border-dark");
+        changeLogoColor.removeAttribute("src");
+        changeLogoColor.setAttribute("src","img/header/m-logo.png");
+        for(let i = 0; i < changeLinkSColor.length; i++){
+            changeLinkSColor[i].style.color = "#000";
+        }
     }
 
     if(scrollY > 500){
