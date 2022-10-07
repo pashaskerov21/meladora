@@ -40,20 +40,24 @@ let navbarLogo = document.getElementById("navbar-logo-div");
 openSearchBoxBtn.onclick = function(){
     
     navbarLinksDiv.classList.add("d-none");
-    navbarLogo.classList.add("d-none","d-sm-block");
+    //navbarLogo.classList.add("d-none","d-sm-block");
     navSearchBox.classList.remove("d-none");
     navSearchBox.style.position = "absolute";
     navSearchBox.style.right = 0;
     navSearchBox.style.top = "25px";
     navSearchBox.style.animation = "show-box 0.8s ease";
+    if(screen.availWidth < 450){
+        navbarLogo.style.opacity = 0;
+    }
     
 }
 
 closeSearchBox.onclick = function(){
    
     navSearchBox.classList.add("d-none");
-    navbarLinksDiv.classList.remove("d-none")
-    navbarLogo.classList.remove("d-none","d-sm-block");
+    navbarLinksDiv.classList.remove("d-none");
+    navbarLogo.style.opacity = 1;
+    //navbarLogo.classList.remove("d-none","d-sm-block");
 }
 
 
