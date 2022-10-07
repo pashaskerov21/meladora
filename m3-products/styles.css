@@ -173,11 +173,20 @@ main #meladora-products-section #product-items .card .card-img-top {
   width: 80%;
   background-color: #F7F7F7;
   position: absolute;
-  top: 0;
+  top: 280px;
   left: 50%;
-  
   animation: cardinfo 0.5s ease;
   transform: translateX(-50%);
+}
+@media only screen and (min-width:768px){
+  .toggle-product-card{
+    top: 200px;
+  }
+}
+@media only screen and (min-width:1400px){
+  .toggle-product-card{
+    top: 150px;
+  }
 }
 
 
