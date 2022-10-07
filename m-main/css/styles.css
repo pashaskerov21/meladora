@@ -163,7 +163,7 @@ header #product-swiper .swiper-wrapper .swiper-slide #flour-slide #flour-slide-i
     transform: scale(0);
   }
   100% {
-    transform: 1;
+    transform: scale(1);
   }
 }
 main {

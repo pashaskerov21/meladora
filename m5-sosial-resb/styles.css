@@ -58,7 +58,7 @@
       transform: scale(0);
     }
     100% {
-      transform: 1;
+      transform: scale(1);
     }
   }
     
