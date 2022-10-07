@@ -82,5 +82,5 @@ closeSearchBox.onclick = function(){
     navSearchBox.classList.add("d-none");
     navbarLinksDiv.classList.remove("d-none");
     navbarLogo.style.opacity = 1;
-    
+
 }
