@@ -152,18 +152,18 @@ header #product-swiper .swiper-wrapper .swiper-slide #flour-slide #flour-slide-i
 }
 @-webkit-keyframes show-box {
   0% {
-    transform: translateY(100px);
+    transform: scale(0);
   }
   100% {
-    transform: translateY(0);
+    transform: scale(1);
   }
 }
 @keyframes show-box {
   0% {
-    transform: translateY(100px);
+    transform: scale(0);
   }
   100% {
-    transform: translateY(0);
+    transform: 1;
   }
 }
 main {
