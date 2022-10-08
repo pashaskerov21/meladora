@@ -228,6 +228,7 @@ appleCard.onclick = function(){
     portagalCard.setAttribute("disabled","");
     saftaliCard.setAttribute("disabled","");
     gilasCard.setAttribute("disabled","");
+    gavaliCard.setAttribute("disabled","");
     qozCard.setAttribute("disabled","");
     pomidorCard.setAttribute("disabled","");
     taxilCard.setAttribute("disabled","");
@@ -243,6 +244,7 @@ closeAppleCardBtn.onclick = function(){
     portagalCard.removeAttribute("disabled");
     saftaliCard.removeAttribute("disabled");
     gilasCard.removeAttribute("disabled");
+    gavaliCard.removeAttribute("disabled");
     qozCard.removeAttribute("disabled");
     pomidorCard.removeAttribute("disabled");
     taxilCard.removeAttribute("disabled");
@@ -265,6 +267,7 @@ armudCard.onclick = function(){
     portagalCard.setAttribute("disabled","");
     saftaliCard.setAttribute("disabled","");
     gilasCard.setAttribute("disabled","");
+    gavaliCard.setAttribute("disabled","");
     qozCard.setAttribute("disabled","");
     pomidorCard.setAttribute("disabled","");
     taxilCard.setAttribute("disabled","");
@@ -280,6 +283,7 @@ closeArmudCardBtn.onclick = function(){
     portagalCard.removeAttribute("disabled");
     saftaliCard.removeAttribute("disabled");
     gilasCard.removeAttribute("disabled");
+    gavaliCard.removeAttribute("disabled");
     qozCard.removeAttribute("disabled");
     pomidorCard.removeAttribute("disabled");
     taxilCard.removeAttribute("disabled");
@@ -302,6 +306,7 @@ portagalCard.onclick = function(){
     portagalCard.setAttribute("disabled","");
     saftaliCard.setAttribute("disabled","");
     gilasCard.setAttribute("disabled","");
+    gavaliCard.setAttribute("disabled","");
     qozCard.setAttribute("disabled","");
     pomidorCard.setAttribute("disabled","");
     taxilCard.setAttribute("disabled","");
@@ -317,6 +322,7 @@ closePortagalCardBtn.onclick = function(){
     portagalCard.removeAttribute("disabled");
     saftaliCard.removeAttribute("disabled");
     gilasCard.removeAttribute("disabled");
+    gavaliCard.removeAttribute("disabled");
     qozCard.removeAttribute("disabled");
     pomidorCard.removeAttribute("disabled");
     taxilCard.removeAttribute("disabled");
@@ -338,6 +344,7 @@ saftaliCard.onclick = function(){
     portagalCard.setAttribute("disabled","");
     saftaliCard.setAttribute("disabled","");
     gilasCard.setAttribute("disabled","");
+    gavaliCard.setAttribute("disabled","");
     qozCard.setAttribute("disabled","");
     pomidorCard.setAttribute("disabled","");
     taxilCard.setAttribute("disabled","");
@@ -353,6 +360,7 @@ closeSaftaliCardBtn.onclick = function(){
     portagalCard.removeAttribute("disabled");
     saftaliCard.removeAttribute("disabled");
     gilasCard.removeAttribute("disabled");
+    gavaliCard.removeAttribute("disabled");
     qozCard.removeAttribute("disabled");
     pomidorCard.removeAttribute("disabled");
     taxilCard.removeAttribute("disabled");
@@ -373,6 +381,7 @@ gilasCard.onclick = function(){
     portagalCard.setAttribute("disabled","");
     saftaliCard.setAttribute("disabled","");
     gilasCard.setAttribute("disabled","");
+    gavaliCard.setAttribute("disabled","");
     qozCard.setAttribute("disabled","");
     pomidorCard.setAttribute("disabled","");
     taxilCard.setAttribute("disabled","");
@@ -388,6 +397,7 @@ closeGilasCardBtn.onclick = function(){
     portagalCard.removeAttribute("disabled");
     saftaliCard.removeAttribute("disabled");
     gilasCard.removeAttribute("disabled");
+    gavaliCard.removeAttribute("disabled");
     qozCard.removeAttribute("disabled");
     pomidorCard.removeAttribute("disabled");
     taxilCard.removeAttribute("disabled");
@@ -408,6 +418,7 @@ gavaliCard.onclick = function(){
     portagalCard.setAttribute("disabled","");
     saftaliCard.setAttribute("disabled","");
     gilasCard.setAttribute("disabled","");
+    gavaliCard.setAttribute("disabled","");
     qozCard.setAttribute("disabled","");
     pomidorCard.setAttribute("disabled","");
     taxilCard.setAttribute("disabled","");
@@ -423,6 +434,7 @@ closeGavaliCardBtn.onclick = function(){
     portagalCard.removeAttribute("disabled");
     saftaliCard.removeAttribute("disabled");
     gilasCard.removeAttribute("disabled");
+    gavaliCard.removeAttribute("disabled");
     qozCard.removeAttribute("disabled");
     pomidorCard.removeAttribute("disabled");
     taxilCard.removeAttribute("disabled");
@@ -444,6 +456,7 @@ qozCard.onclick = function(){
     portagalCard.setAttribute("disabled","");
     saftaliCard.setAttribute("disabled","");
     gilasCard.setAttribute("disabled","");
+    gavaliCard.setAttribute("disabled","");
     qozCard.setAttribute("disabled","");
     pomidorCard.setAttribute("disabled","");
     taxilCard.setAttribute("disabled","");
@@ -459,6 +472,7 @@ closeQozCardBtn.onclick = function(){
     portagalCard.removeAttribute("disabled");
     saftaliCard.removeAttribute("disabled");
     gilasCard.removeAttribute("disabled");
+    gavaliCard.removeAttribute("disabled");
     qozCard.removeAttribute("disabled");
     pomidorCard.removeAttribute("disabled");
     taxilCard.removeAttribute("disabled");
@@ -480,6 +494,7 @@ pomidorCard.onclick = function(){
     portagalCard.setAttribute("disabled","");
     saftaliCard.setAttribute("disabled","");
     gilasCard.setAttribute("disabled","");
+    gavaliCard.setAttribute("disabled","");
     qozCard.setAttribute("disabled","");
     pomidorCard.setAttribute("disabled","");
     taxilCard.setAttribute("disabled","");
@@ -495,6 +510,7 @@ closePomidorCardBtn.onclick = function(){
     portagalCard.removeAttribute("disabled");
     saftaliCard.removeAttribute("disabled");
     gilasCard.removeAttribute("disabled");
+    gavaliCard.removeAttribute("disabled");
     qozCard.removeAttribute("disabled");
     pomidorCard.removeAttribute("disabled");
     taxilCard.removeAttribute("disabled");
@@ -516,6 +532,7 @@ taxilCard.onclick = function(){
     portagalCard.setAttribute("disabled","");
     saftaliCard.setAttribute("disabled","");
     gilasCard.setAttribute("disabled","");
+    gavaliCard.setAttribute("disabled","");
     qozCard.setAttribute("disabled","");
     pomidorCard.setAttribute("disabled","");
     taxilCard.setAttribute("disabled","");
@@ -531,6 +548,7 @@ closeTaxilCardBtn.onclick = function(){
     portagalCard.removeAttribute("disabled");
     saftaliCard.removeAttribute("disabled");
     gilasCard.removeAttribute("disabled");
+    gavaliCard.removeAttribute("disabled");
     qozCard.removeAttribute("disabled");
     pomidorCard.removeAttribute("disabled");
     taxilCard.removeAttribute("disabled");
@@ -552,6 +570,7 @@ tingCard.onclick = function(){
     portagalCard.setAttribute("disabled","");
     saftaliCard.setAttribute("disabled","");
     gilasCard.setAttribute("disabled","");
+    gavaliCard.setAttribute("disabled","");
     qozCard.setAttribute("disabled","");
     pomidorCard.setAttribute("disabled","");
     taxilCard.setAttribute("disabled","");
@@ -567,6 +586,7 @@ closeTingCardBtn.onclick = function(){
     portagalCard.removeAttribute("disabled");
     saftaliCard.removeAttribute("disabled");
     gilasCard.removeAttribute("disabled");
+    gavaliCard.removeAttribute("disabled");
     qozCard.removeAttribute("disabled");
     pomidorCard.removeAttribute("disabled");
     taxilCard.removeAttribute("disabled");
